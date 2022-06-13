@@ -16,7 +16,6 @@ html {
 body {
     display:flex;
     flex-direction: column;
-
 }
 
 ul {
@@ -36,7 +35,6 @@ a {
     display:flex;
     align-items: center;
     background-color: #1f2937;
-
 }
 
 .header-logo {
@@ -58,13 +56,11 @@ a {
 .navbar {
     display:flex;
     justify-content: space-between;
-
 }
 
 .navbar li {
     white-space: nowrap;
     text-align: center;
-    
 }
 
 /*hero*/
@@ -73,7 +69,6 @@ a {
     display:flex;
     background-color: #1f2937;
     padding:48px 144px 72px 144px;
-
 }
 
 .hero-left {
@@ -102,7 +97,6 @@ a {
     margin:0 0 0 36px;
     justify-content: center;
     padding: 24px 0px;
-
 }
 
 .hero-right p {
@@ -126,7 +120,8 @@ button {
 /*Middle*/
 
 .middle {
-    padding-bottom: 72px;
+    padding-bottom: 108px;
+    background-color: white;
 }
 
 .middle h2{
@@ -139,8 +134,6 @@ button {
     justify-content: center;
     gap:32px;
 }
-
-
 
 .element {
     display: flex;
@@ -164,4 +157,30 @@ button {
     background-color: aquamarine;
     border-radius: 12px;
     align-self: center;
+}
+
+/*Bottom*/
+
+.bottom {
+    display:flex;
+    flex-direction: column;
+    padding:144px 288px;
+    background-color: #e5e7eb;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 50;
+    color:#1f2937;
+    text-align: center;
+    line-height: 54px;
+    margin-bottom: 36px;
+}
+
+#signature {
+    text-align: right;
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: bold;
 }
