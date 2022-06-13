@@ -220,3 +220,13 @@ button {
     border-color: #f9faf8;
     padding:0 48px;
 }
+
+/*Footer*/
+
+.footer {
+    font-size: 16px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 36px;
+}
