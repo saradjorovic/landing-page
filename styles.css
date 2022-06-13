@@ -132,7 +132,7 @@ button {
 .grid {
     display: flex;
     justify-content: center;
-    gap:32px;
+    gap:48px;
 }
 
 .element {
@@ -183,4 +183,40 @@ button {
     font-size: 24px;
     color: #1f2937;
     font-weight: bold;
+}
+
+/*sign up*/
+
+.sign-up {
+    display:flex;
+    padding: 72px 144px;
+    margin: 108px 144px;
+    background-color: #3882f6;
+}
+
+.sign-left {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+#call {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin-bottom: 18px;
+}
+
+#call2 {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#sign-button {
+    font-size: 24px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f9faf8;
+    padding:0 48px;
 }
