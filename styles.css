@@ -122,3 +122,46 @@ button {
     color:#e5e7eb;
     font-weight: bold;
 }
+
+/*Middle*/
+
+.middle {
+    padding-bottom: 72px;
+}
+
+.middle h2{
+    text-align: center;
+    padding: 48px;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    gap:32px;
+}
+
+
+
+.element {
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    align-content: center;    
+}
+
+.element p{
+    align-self: center;
+    text-align: center;
+    max-width: 150px;
+}
+
+.block {
+    width:150px;
+    height:150px;
+    border-width:2px;
+    border-style: solid;
+    border-color:#3882f6;
+    background-color: aquamarine;
+    border-radius: 12px;
+    align-self: center;
+}
